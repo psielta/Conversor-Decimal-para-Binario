@@ -19,7 +19,7 @@ public class Converter {
         double pot = Math.pow(10, -1);
         double binario = 0;
         int conter = -1;
-        while (decimal != 0 || conter > -100) {
+        while (decimal != 0) {
             decimal *= 2;
             int parteInteira = (int) decimal;
             binario += pot * (parteInteira);
